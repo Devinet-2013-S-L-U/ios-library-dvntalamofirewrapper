@@ -1,0 +1,52 @@
+{
+  "name": "DVNTAlamofireWrapper",
+  "version": "2.4.5",
+  "summary": "An amazing Alamofire wrapper.",
+  "description": "A wrapper to use Amalofire easily.",
+  "homepage": "https://www.devinet.es",
+  "license": {
+    "type": "Copyright (c) 2021 Devinet 2013, S.L.U.",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Raúl Vidal Muiños": "contacto@devinet.es"
+  },
+  "social_media_url": "https://twitter.com/devinet_es",
+  "platforms": {
+    "ios": "16.2",
+    "tvos": "16.2"
+  },
+  "swift_versions": [
+    "3.0",
+    "4.0",
+    "4.1",
+    "4.2",
+    "5.0",
+    "5.1",
+    "5.2",
+    "5.3",
+    "5.4",
+    "5.5",
+    "5.6",
+    "5.7"
+  ],
+  "source": {
+    "git": "https://bitbucket.org/Devinet_Team/ios-library-dvntalamofirewrapper.git",
+    "tag": "2.4.5"
+  },
+  "frameworks": "UIKit",
+  "source_files": "Sources/DVNTAlamofireWrapper/Classes/**/*",
+  "exclude_files": "Sources/DVNTAlamofireWrapper/**/*.plist",
+  "dependencies": {
+    "Alamofire": [
+      "~>5.6.4"
+    ],
+    "SwiftyJSON": [
+      "~>5.0.1"
+    ],
+    "ReachabilitySwift": [
+      "~>5.0.0"
+    ]
+  },
+  "swift_version": "5.7"
+}

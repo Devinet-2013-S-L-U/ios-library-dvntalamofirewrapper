@@ -1,0 +1,6 @@
+framework module DVNTAlamofireWrapper {
+  umbrella header "DVNTAlamofireWrapper-umbrella.h"
+
+  export *
+  module * { export * }
+}

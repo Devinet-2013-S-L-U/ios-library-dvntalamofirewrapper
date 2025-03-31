@@ -1,0 +1,31 @@
+PODS:
+  - Alamofire (5.6.4)
+  - DVNTAlamofireWrapper (2.4.5):
+    - Alamofire (~> 5.6.4)
+    - ReachabilitySwift (~> 5.0.0)
+    - SwiftyJSON (~> 5.0.1)
+  - ReachabilitySwift (5.0.0)
+  - SwiftyJSON (5.0.1)
+
+DEPENDENCIES:
+  - DVNTAlamofireWrapper (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - ReachabilitySwift
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  DVNTAlamofireWrapper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  DVNTAlamofireWrapper: 7ca71605e6295e53c9fa1d24fc3736e719ac6412
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+
+PODFILE CHECKSUM: 3a3571a901fe3bae7a4662e00d48412c0315d884
+
+COCOAPODS: 1.11.3
